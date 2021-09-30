@@ -5,15 +5,18 @@ let mapleader=" "
 nmap <Leader>oj :split<CR>
 "Abrir ventana verticalmente
 nmap <Leader>ol :vsplit<CR>
-
 "Guardar
 nmap <Leader>w :w<CR>
 "Salir
 nmap <Leader>q :q<CR>
-
+"Exit and save - Custom
+nmap <Leader>x :x<CR>
+"Force exit - Custom
+nmap <Leader>qq :q!<CR>
+"Escape shortcut - Custom
+:imap jj <Esc>
 "Recargar configuracion
 nmap <Leader>rr :source %:p<CR>
-
 "Nueva pestaña
 nmap <Leader>ot :tabe 
 
